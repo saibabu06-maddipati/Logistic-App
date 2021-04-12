@@ -1,0 +1,23 @@
+
+    .carousel-item-slider {
+        height: 575px;
+        width: 100%;
+        background: rgb(4, 96, 182);
+        overflow: hidden;
+    }
+    
+    .carousel-item-slider .d-block {
+       object-fit: cover;
+       opacity: 0.05;
+    }
+    .carousel-item-slider .carousel-caption{
+        position: absolute;
+        top: 5vw;
+        width: 50%;
+        margin: auto;
+        font-size: 20px;
+    }
+    .carousel-item-slider .carousel-caption .profession{
+        font-size: 15px;
+    }
+

@@ -1,0 +1,23 @@
+
+<div class="jumbotron gallery-box">
+    <div class="container">
+      <div class="main-heading text-center">
+        <h2 class="text-uppercase font-weight-bold p-3">OUR GALLERY</h2>
+        <h6 class="p-3">Cras varius purus in tempus porttitor ut dapibus efficitur sagittis cras vitae lacus metus nunc vulputate facilisis nisi <br>
+           eu lobortis erat consequat ut. Aliquam et justo ante. Nam a cursus velit</h6>
+      </div>
+    
+      <div class="row ">
+          <div class="col-md-4 my-2" *ngFor='let image of galleryImages'>
+            <div class="content" > <a href="#">
+                    <div class="content-overlay"></div> <img class="content-image" [src]="image">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Project Title</h3>
+                        <p class="content-text fadeIn-bottom"><a href="#" > App Design</a></p>
+                    </div>
+                </a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

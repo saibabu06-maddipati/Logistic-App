@@ -1,0 +1,42 @@
+
+
+    .custom-padding{
+        padding: 3em;
+    }
+
+    .card{
+        border: none;
+    }
+    .date-month{
+        background-color: blue;
+        position: absolute;
+        top: 1.9em;
+        right:1.9em;
+        width: 4em;
+        font-family: serif;
+    }
+    .date-month .date{
+        padding: 0.3em;
+        text-align: center;
+        font-size: 25px;
+        background-color: white;
+    }
+    .date-month .month{
+        padding: 0.1em;
+        text-align: center;
+        
+    }
+
+    .card-body{
+        padding-right: 0em;
+    }
+    .card-body .news-detail h5 {
+        font-family: serif;
+    }
+    .post-meta{
+        font-size: 1vw;
+    }
+    .post-meta .post-admin,.post-meta .post-comment,.post-meta .post-like{
+        padding: 0em;
+        margin: 0em;
+    }

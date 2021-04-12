@@ -1,0 +1,40 @@
+
+    /* Quote section */
+    .quoteSection{
+        font-family:serif;
+        padding: 3.5em 0em;
+    }
+    .choose-title>h4{
+        padding:0.7em 0em;
+    }
+    .choose-title .text-muted{
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    .choose-services .choose-list{
+        list-style-type: none;
+    }
+    .choose-box{
+        padding: 0.5em 0em;
+    }.choose-box-content>h4{
+        padding: 0.3em 0em;
+    }
+    .choose-box-content>p{
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    .quotation-box{
+        position: absolute;
+        background-color: rgb(3, 93, 167);
+        padding: 4.8em 1em;
+        top:-5em
+    }
+    @media screen and (max-width: 1000px) {
+        .quotation-box{
+            position: unset;
+        }
+    }
+    .desc-text{
+        font-family: sans-serif;
+    }
+

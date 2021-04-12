@@ -1,0 +1,64 @@
+
+    .footer-content , .footer-copyright{
+        opacity: 0.9;
+        padding: 5em 0em 2.3em 0em;
+    }
+    .footer-widget{
+    height: 100%;
+    }
+    .contact-info li a, .news-content a, .copyright a{
+       color: white; 
+    }
+    footer .complete-footer{
+        background-image: url(../../../../assets/images/1-1.jpg);
+        background-repeat: no-repeat;
+        background-attachment:scroll;  
+        background-size: 100%;
+        background-size: cover;
+     
+    }
+    .contact-info li{
+     padding: 0.7em 0em 0.7em 0em;
+     
+    }
+    .contact-info{
+        padding: 0em;
+        list-style-type:none;
+    }
+ .new-post-main{
+    width: 100%;
+    height: inherit;
+    margin:0em;
+    padding: 0em 0em 2em 0em;
+    }
+    .news-content>figure{
+        padding: 0em 0em 0em 0.5em;
+    }
+    .footer-logo img{
+        filter: invert(100%);
+    }
+    .footer-widget>h2{
+        font-family: serif;
+        font-size: 25px;
+        padding:0em 0em 0.5em 0em;
+        font-weight: bold;
+    }
+    
+        .fa-facebook-f, .fa-twitter, .fa-google-plus, .fa-pinterest-p, .fa-linkedin {
+            display: inline-block;
+            border-radius: 60px;
+            box-shadow: 0px 0px 2px #888;
+            padding: 0.7em 0.7em;
+            margin-right: 0.5em;
+            color: white;
+        }
+        .social-links-two a:hover{
+            background-color: blue;
+        }
+        .contact-info li a:hover,.news-content>a:hover{
+            color: blue;
+        }
+    .footer-copyright{
+        border-top:0.1px rgb(117, 117, 117) dotted;
+        padding: 1em 0em;
+    }
