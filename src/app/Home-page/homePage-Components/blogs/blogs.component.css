@@ -6,6 +6,34 @@
 
     .card{
         border: none;
+        width: 20rem;
+    }
+    .main-heading>h2{
+        font: bold 30px serif;
+    }
+   .blog-cards{
+        margin: 0em 9em;
+    }
+    .card-body{
+        padding-right: 0em;
+    }
+    .card-body .news-detail h5 {
+        font-family: serif;
+        font-size: 20px;
+    }
+    .card-body .news-detail p {
+        font-size: 17px;
+        padding: 1px 3px 1px 1px;
+        line-height: 26px;
+    }
+    .post-meta{
+        font-size: 1vw;
+        padding-top: 20px;
+    }
+
+    .post-meta .post-admin,.post-meta .post-comment,.post-meta .post-like{
+        padding: 0em;
+        margin: 0em;
     }
     .date-month{
         background-color: blue;
@@ -24,19 +52,34 @@
     .date-month .month{
         padding: 0.1em;
         text-align: center;
-        
     }
+    @media screen and (max-width: 1400px) {
+            .main-heading>p{
+                font-size: 18px;
+                            
+            }
+            .blog-cards{
+                margin: 0px 0px;
+            }
+            .card-body{
+                padding-left: 0em;
+            }
+            
+    }
+    @media screen and (max-width: 1030px) {
+        .card-body .news-detail p {
+            padding-right:27px;
+        }
+        .post-meta .post-admin,.post-meta .post-comment,.post-meta .post-like{
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width: 640px) {
+            .main-heading>p{
+                font-size: 15px;
+            }
+            .custom-padding , .card {
+                width: 40em;
+            }
 
-    .card-body{
-        padding-right: 0em;
-    }
-    .card-body .news-detail h5 {
-        font-family: serif;
-    }
-    .post-meta{
-        font-size: 1vw;
-    }
-    .post-meta .post-admin,.post-meta .post-comment,.post-meta .post-like{
-        padding: 0em;
-        margin: 0em;
-    }
+        }

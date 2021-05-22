@@ -2,3 +2,14 @@
     background-color: rgba(179, 175, 175, 0.178);
     margin-bottom: 0em;
 }
+.main-heading>h1{
+    font:30px serif;
+}
+.main-heading>p{
+    font-size:15px;
+}
+@media screen and (max-width: 500px)  {
+    .our-clients{
+width: 40em;
+    } 
+}

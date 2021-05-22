@@ -37,4 +37,9 @@
     .desc-text{
         font-family: sans-serif;
     }
+    @media screen and (max-width: 500px) {
+        .quoteSection {
+          width: 40em;
+        }
+    }
 

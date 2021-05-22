@@ -85,4 +85,9 @@
     .fadeIn-bottom {
         top: 80%
     }
+    @media screen and (max-width: 500px) {
+        .gallery-box{
+          width: 40em;
+        }
+    }
     

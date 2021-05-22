@@ -52,23 +52,52 @@
     width:50%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
     .slide .slide-style span {
          font-size: 10px;
+         padding:0px;
     }
     .slide-one, .slide-four{
-        top:3vw;
+        top:6vw;
         width: 70%;
     }
     .slide-two{
-        top: 3vw;
+        top: 5vw;
         left: 20vw;
         width: 65%;
     }
     .slide-three{
         top: 8vw;
     }
+    .slide .slide-style h1{
+        padding: 0em;
+        margin: 0em;
+    }
 }
+
+    @media screen and (max-width: 500px) {
+        .slider{
+          width: 40em;
+        }
+        .slide .slide-style span {
+            font-size: 12px;
+            padding:0px;
+            line-height: 18px;
+       }
+       .slide .slide-style button{
+        font-size: 15px;
+        
+        margin-top: 10px;
+       }
+       .slide-three{
+        top: 7vw;
+        }
+       
+       .slide .slide-style h1{
+           line-height: 23px;
+           font-size: 18px;
+       }
+        }
     
 
 

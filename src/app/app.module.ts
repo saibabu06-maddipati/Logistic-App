@@ -1,10 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Home-page/homePage-Components/header/header.component';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NavBarComponent } from './Home-page/homePage-Components/nav-bar/nav-bar.component';
 import { SliderComponent } from './Home-page/homePage-Components/slider/slider.component';
 import { ActionsComponent } from './Home-page/homePage-Components/actions/actions.component';
@@ -16,7 +17,11 @@ import { BlogsComponent } from './Home-page/homePage-Components/blogs/blogs.comp
 import { ClientsComponent } from './Home-page/homePage-Components/client-details/clients.component';
 import { FooterComponent } from './Home-page/homePage-Components/footer/footer.component';
 import { HomepageComponent } from './Home-page/homepage.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SideNavBarComponent } from './Home-page/homePage-Components/nav-bar/side-nav-bar/side-nav-bar.component';
+import { LoginComponent } from './login/login.component';
+import { AngularMaterialModule } from './angular-material/angular-material.module';
+
+
 
 @NgModule({
   declarations: [
@@ -32,13 +37,17 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BlogsComponent,
     ClientsComponent,
     FooterComponent,
-    HomepageComponent
+    HomepageComponent,
+    SideNavBarComponent,
+    LoginComponent
   ],
   imports: [
+    FontAwesomeModule,
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
-    FontAwesomeModule
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

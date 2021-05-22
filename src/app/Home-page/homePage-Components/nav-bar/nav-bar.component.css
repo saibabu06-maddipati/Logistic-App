@@ -4,7 +4,6 @@
 }
 .navbar{
 padding:0em 2em 0em 2em;
-height: 100%;
 }
 .navbar-dark .navbar-nav .nav-link{
     height: 4em;
@@ -26,4 +25,9 @@ li a:hover
     font-size: 20px;
     width: 100%;
     padding:0.5em;
+}
+@media screen and (max-width: 500px) {
+    .navbar {
+      width: 40em;
+    }
 }

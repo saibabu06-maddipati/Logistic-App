@@ -20,4 +20,21 @@
     .carousel-item-slider .carousel-caption .profession{
         font-size: 15px;
     }
+    @media screen and (max-width: 770px) {
+        .carousel-item-slider .carousel-caption{
+            position: absolute;
+            top: 5vw;
+            width: 50%;
+            margin: auto;
+            font-size: 16px;
+        }
+        .carousel-caption>p{
+            font-size: 15px;
+        }
+        }
 
+    @media screen and (max-width: 500px) {
+            .parallex-testmonils {
+              width: 40em;
+            }
+    }

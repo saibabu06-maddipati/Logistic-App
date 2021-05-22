@@ -1,0 +1,85 @@
+*{
+  padding: 0.2vw;
+}
+
+.login{
+  background-color: rgba(230, 230, 230, 0.938);
+  width: 100%;
+}
+.login-header{
+  background-image: url(../../assets/images/Logistics-and-4PL.jpg);
+  background-size: 100%;
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+}
+@media screen and (max-width: 500px) {
+  .login-header{
+    width: 40em;
+  }
+  }
+
+
+.login-header-background{
+  background-color: rgb(2, 36, 87);
+  opacity: 0.95;
+  color:white;
+  padding: 5vw 15vw;
+  
+ 
+}
+.login-header-background>div>span>a{
+    color: inherit;
+}
+.login-header .login-header-background div>p{
+  font-size: 18px;
+  font-family: serif;
+  font-style: italic;
+  
+}
+.login-header .login-header-background div>h1{
+font-size: 3vw;
+font-family: serif;
+}
+@media screen and (max-width: 760px) {
+  .login-header .login-header-background>h1{
+    font-size: 24px;
+    }
+  }
+.login-form {
+    width: 100%;
+  }
+  
+  .login-full-width {
+    width: 100%;
+    margin: 0%;
+  }
+  .login-card {
+    width: 40em;
+    padding: 81px 30px;
+    margin: 4vw auto;
+  }
+  mat-card-header{
+    justify-content: center;
+    font-family: serif;
+  }
+  mat-card-content{
+    margin-bottom: 0px;
+  }
+  mat-card-actions{
+    display: flex;
+    padding-top:0px ;
+    margin: 0px 6px;
+    justify-content:space-between;
+  }
+  .login-card-footer{
+    line-height: 25px;
+    font-size: 16px;
+    color:grey;
+    margin-top: 20px;
+  }
+  .login-card-footer span:first-child{
+    font-family: serif;
+  }
+ 
+  

@@ -1,47 +1,68 @@
+*{
+    font-family: sans-serif;
+    font-style: normal;
+}
+footer{
 
+    line-height: 1.5em;
+}
+ul{
+    margin-top: 1em;
+}
     .footer-content , .footer-copyright{
         opacity: 0.9;
-        padding: 5em 0em 2.3em 0em;
+        padding: 5em 0em 7em 0em;
     }
     .footer-widget{
     height: 100%;
     }
     .contact-info li a, .news-content a, .copyright a{
-       color: white; 
+       color: rgb(190, 188, 188); 
+       font-size: 17px;
     }
+    
     footer .complete-footer{
         background-image: url(../../../../assets/images/1-1.jpg);
-        background-repeat: no-repeat;
-        background-attachment:scroll;  
-        background-size: 100%;
-        background-size: cover;
+        background-repeat: no-repeat;  
+        background-size: 110em 35em;
+        background-attachment: scroll;
      
     }
     .contact-info li{
      padding: 0.7em 0em 0.7em 0em;
-     
     }
     .contact-info{
         padding: 0em;
         list-style-type:none;
     }
+
  .new-post-main{
     width: 100%;
     height: inherit;
     margin:0em;
-    padding: 0em 0em 2em 0em;
+   
     }
     .news-content>figure{
         padding: 0em 0em 0em 0.5em;
     }
+    .image-thumb>img{
+        margin-top: 13px;
+    }
+    .news-content{
+        margin-bottom: 32px;
+    }
     .footer-logo img{
         filter: invert(100%);
     }
-    .footer-widget>h2{
+    .footer-widget>h2, .news-widget>h2{
         font-family: serif;
         font-size: 25px;
-        padding:0em 0em 0.5em 0em;
         font-weight: bold;
+        margin: 0px;
+    }
+    .news-widget .new-post-main>h2{
+        padding-left:10px;
+        font: bold 25px serif;
     }
     
         .fa-facebook-f, .fa-twitter, .fa-google-plus, .fa-pinterest-p, .fa-linkedin {
@@ -61,4 +82,41 @@
     .footer-copyright{
         border-top:0.1px rgb(117, 117, 117) dotted;
         padding: 1em 0em;
+    }
+    .copyright>a{
+        color: rgb(18, 115, 194);
+    }
+    @media screen and (max-width: 770px) {
+        .footer-widget{
+            margin-top: 20px;
+        }
+        footer .complete-footer{
+            background-image: url(../../../../assets/images/1-1.jpg);
+            background-repeat: no-repeat;  
+            background-size: 110em 110em;
+         
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .col-sm-5{
+            margin-left: 44px;
+        }
+        .new-post-main{
+            padding: 0px;
+        }
+        .second-column{
+            padding-top: 18px;
+        }
+        .complete-footer{
+            width: 40em;
+        }
+    }
+    @media screen and (max-width: 370px) {
+        .footer-widget{
+            padding:10px 0px;
+            margin-top: 0px;
+        }
+        .col-sm-5{
+            margin-left: 0px;
+        }
     }
