@@ -13,11 +13,7 @@
   width: 100%;
   margin: 0px;
 }
-@media screen and (max-width: 500px) {
-  .login-header{
-    width: 40em;
-  }
-  }
+
 
 
 .login-header-background{
@@ -41,11 +37,7 @@
 font-size: 3vw;
 font-family: serif;
 }
-@media screen and (max-width: 760px) {
-  .login-header .login-header-background>h1{
-    font-size: 24px;
-    }
-  }
+
 .login-form {
     width: 100%;
   }
@@ -81,5 +73,18 @@ font-family: serif;
   .login-card-footer span:first-child{
     font-family: serif;
   }
+  @media screen and (max-width: 700px) {
+    .login-header .login-header-background>h1{
+      font-size: 24px;
+      }
+      .login{
+        width: 46.1em;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .login{
+        width: 40em;
+      }
+      }
  
   

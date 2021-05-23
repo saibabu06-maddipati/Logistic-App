@@ -1,0 +1,73 @@
+
+
+<!-- signup class start -->
+<div class="signup">
+    <!-- signup-heading start -->
+      <div class="signup-header">
+        <!-- signup background image start -->
+        <div class="signup-header-background d-flex justify-content-between">
+          <div>
+            <p class="">prove your identity</p>
+            <h1 class="">SIGN UP</h1>
+          </div>
+          <div>
+            <span><a href="#">Home</a></span>/
+            <span><a href="#">Pages</a></span>/
+            <span><a href="#">Sign Up</a></span>
+          </div>
+        </div>
+        <!-- signup background image start -->
+      </div>
+      <!-- signup-heading end -->
+      <!-- signup card starts -->
+      <mat-card class="signup-card">
+        <mat-card-header>
+          <mat-card-title>
+            <div class="text-center">
+                Register A New Account
+            </div>
+            <div class="signup-card-login">
+                <span>Already Signed Up? Click <a href="#"> Sign In </a> to login your account.</span>
+            </div>
+          </mat-card-title>
+        </mat-card-header>
+        <hr>
+        <!-- login form starts -->
+        <mat-card-content>
+          <form class="signup-form">
+              <!-- first name-->
+            <mat-form-field class="signup-full-width">
+              <mat-label>First Name</mat-label>
+              <input matInput placeholder="Ex. Pizza" value="">
+            </mat-form-field>
+            <!-- last name -->
+            <mat-form-field class="signup-full-width">
+                <mat-label>Last Name</mat-label>
+                <input matInput placeholder="Ex. Pizza" value="">
+              </mat-form-field>
+              <!-- email address -->
+              <mat-form-field class="signup-full-width">
+                <mat-label>Email Address</mat-label>
+                <input matInput placeholder="Ex. xyz@email.com" value="">
+              </mat-form-field>
+            <mat-form-field class="signup-full-width">
+                <mat-label>Password *</mat-label>
+                <input matInput placeholder="Ex. Pizza" value="">
+              </mat-form-field>
+              <mat-form-field class="signup-full-width">
+                <mat-label>Conform Password *</mat-label>
+                <input matInput placeholder="Ex. Pizza" value="">
+              </mat-form-field>
+          </form>
+        </mat-card-content>
+         <!-- signup form end -->
+        <!-- sign up action button start -->
+        <mat-card-actions>
+          <mat-checkbox [color]="color">I read <a href="#">Terms and Conditions</a></mat-checkbox>
+          <button mat-raised-button color="primary">Register</button>
+        </mat-card-actions>
+        <!-- signup action button end -->
+      </mat-card>
+      <!-- signup card end -->
+  </div>
+<!-- signup class end -->

@@ -20,6 +20,7 @@ import { HomepageComponent } from './Home-page/homepage.component';
 import { SideNavBarComponent } from './Home-page/homePage-Components/nav-bar/side-nav-bar/side-nav-bar.component';
 import { LoginComponent } from './login/login.component';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 
@@ -39,7 +40,8 @@ import { AngularMaterialModule } from './angular-material/angular-material.modul
     FooterComponent,
     HomepageComponent,
     SideNavBarComponent,
-    LoginComponent
+    LoginComponent,
+    SignUpComponent
   ],
   imports: [
     FontAwesomeModule,

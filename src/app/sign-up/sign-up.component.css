@@ -1,0 +1,91 @@
+*{
+    padding: 0.2vw;
+  }
+  
+  .signup{
+    background-color: rgba(230, 230, 230, 0.938);
+    width: 100%;
+  }
+  .signup-header{
+    background-image: url(../../assets/images/Logistics-and-4PL.jpg);
+    background-size: 100%;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .signup-header-background{
+    background-color: rgb(2, 36, 87);
+    opacity: 0.95;
+    color:white;
+    padding: 5vw 15vw;
+      
+  }
+  .signup-header-background>div>span>a{
+      color: inherit;
+  }
+  .signup-header .signup-header-background div>p{
+    font-size: 18px;
+    font-family: serif;
+    font-style: italic;
+    
+  }
+  .signup-header .signup-header-background div>h1{
+  font-size: 3vw;
+  font-family: serif;
+  }
+  
+    .signup-card-login{
+        line-height: 25px;
+        font-size: 16px;
+        color:grey;
+        margin-top: 20px;
+      }
+      .signup-card-login span:first-child{
+        font-family: serif;
+      }
+  .signup-form ,mat-checkbox ,mat-card-action>button {
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    .signup-full-width {
+      width: 100%;
+      margin: 0%;
+    }
+    .signup-card {
+      width: 40em;
+      padding: 81px 30px;
+      margin: 4vw auto;
+    }
+    mat-card-header{
+      justify-content: center;
+      font-family: serif;
+    }
+    mat-card-content{
+      margin-bottom: 0px;
+    }
+    mat-card-actions{
+      display: flex;
+      padding-top:0px ;
+      margin: 0px 6px ;
+      height: 55px;
+      justify-content:space-between;
+    }
+    mat-card-actions>button{
+      padding:0px 42px 0px 20px;
+      font-size:25px;
+    }
+    @media screen and (max-width: 700px) {
+        .signup-header .signup-header-background>h1{
+          font-size: 24px;
+          }
+          .signup{
+            width: 46.1em;
+          }
+        }
+    @media screen and (max-width: 500px) {
+        .signup{
+          width: 40em;
+        }
+        }  

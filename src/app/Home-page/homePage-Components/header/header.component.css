@@ -34,6 +34,11 @@
 .logo-header{
     padding-top: 2em;
 }
+@media screen and (max-width: 650px) {
+    .top-bar {
+      width: 52em;
+    }
+}
 @media screen and (max-width: 500px) {
     .top-bar {
       width: 44em;

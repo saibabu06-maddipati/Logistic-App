@@ -67,6 +67,11 @@
     padding: 4em 0em;
 
 }
+@media screen and (max-width: 650px) {
+    .our-services {
+      width: 46.8em;
+    }
+}
 @media screen and (max-width: 500px) {
     .our-services {
       width: 40em;
@@ -75,6 +80,5 @@
         padding: 2em;
         width: 41.5em;
     }
-
 }
 

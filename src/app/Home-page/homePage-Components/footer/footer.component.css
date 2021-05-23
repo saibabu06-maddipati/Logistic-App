@@ -108,15 +108,18 @@ ul{
             padding-top: 18px;
         }
         .complete-footer{
-            width: 40em;
+            width: 46em;
         }
     }
-    @media screen and (max-width: 370px) {
+    @media screen and (max-width: 500px) {
         .footer-widget{
             padding:10px 0px;
             margin-top: 0px;
         }
         .col-sm-5{
             margin-left: 0px;
+        }
+        .complete-footer{
+            width: 40em;
         }
     }

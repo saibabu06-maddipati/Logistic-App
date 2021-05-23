@@ -78,8 +78,19 @@
             .main-heading>p{
                 font-size: 15px;
             }
+            .blog-cards{
+                margin: 30px 50px;
+            }
             .custom-padding , .card {
-                width: 40em;
+                width: 45.6em;
             }
 
+    }
+    @media screen and (max-width: 500px) {
+        .custom-padding , .card {
+            width: 40em;
+        } 
+        .blog-cards{
+            margin: 10px 20px;
         }
+     }
