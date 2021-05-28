@@ -4,11 +4,13 @@
 <div class="signup">
     <!-- signup-heading start -->
       <div class="signup-header">
-        <!-- signup background image start -->
+        <!-- identity check  start -->
         <div class="signup-header-background d-flex justify-content-between">
           <div>
             <p class="">prove your identity</p>
             <h1 class="">SIGN UP</h1>
+            <h1 class="">LOG IN</h1>
+
           </div>
           <div>
             <span><a href="#">Home</a></span>/
@@ -16,7 +18,7 @@
             <span><a href="#">Sign Up</a></span>
           </div>
         </div>
-        <!-- signup background image start -->
+         <!-- identity check  end -->
       </div>
       <!-- signup-heading end -->
       <!-- signup card starts -->
@@ -26,7 +28,7 @@
             <div class="text-center">
                 Register A New Account
             </div>
-            <div class="signup-card-login">
+            <div class="registerd-user">
                 <span>Already Signed Up? Click <a href="#"> Sign In </a> to login your account.</span>
             </div>
           </mat-card-title>
@@ -71,3 +73,45 @@
       <!-- signup card end -->
   </div>
 <!-- signup class end -->
+
+<!-- login class start -->
+  <div class="login">
+      <!-- login card starts -->
+      <mat-card class="login-card">
+        <mat-card-header>
+          <mat-card-title>
+            Login To Your Account
+          </mat-card-title>
+        </mat-card-header>
+        <hr>
+        <!-- login form starts -->
+        <mat-card-content>
+          <form class="login-form">
+            <mat-form-field class="login-full-width">
+              <mat-label>user name</mat-label>
+              <input matInput placeholder="Ex. Pizza" value="">
+            </mat-form-field>
+            <mat-form-field class="login-full-width">
+                <mat-label>password *</mat-label>
+                <input matInput placeholder="Ex. Pizza" value="">
+              </mat-form-field>
+          </form>
+        </mat-card-content>
+         <!-- login form end -->
+        <!-- sign in action button start -->
+        <mat-card-actions>
+          <mat-checkbox class="example-margin" [color]="color">Stay signed in</mat-checkbox>
+          <button mat-raised-button color="primary">LOGIN</button>
+        </mat-card-actions>
+        <!-- sign in action button end -->
+
+        <!-- password reset start -->
+        <div class="login-card-footer">
+          <span>Forget your Password ?</span><br>
+          <span>no worries,<a href="#"> click here</a> to reset your password.</span>
+      </div>
+      <!-- password reset end -->
+      </mat-card>
+      <!-- login card end -->
+  </div>
+<!-- login class end -->

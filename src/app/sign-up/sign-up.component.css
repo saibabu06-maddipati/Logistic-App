@@ -2,7 +2,7 @@
     padding: 0.2vw;
   }
   
-  .signup{
+  .signup , .login{
     background-color: rgba(230, 230, 230, 0.938);
     width: 100%;
   }
@@ -35,27 +35,29 @@
   font-family: serif;
   }
   
-    .signup-card-login{
+    .signup-card ,
+    .login-card , 
+    .registerd-user{
         line-height: 25px;
         font-size: 16px;
         color:grey;
         margin-top: 20px;
       }
-      .signup-card-login span:first-child{
+      .signup-card- span:first-child{
         font-family: serif;
       }
-  .signup-form ,mat-checkbox ,mat-card-action>button {
+  .signup-form ,mat-checkbox ,mat-card-action>button, 
+  .login-form ,mat-checkbox ,mat-card-action>button {
       width: 100%;
       font-size: 18px;
     }
     
-    .signup-full-width {
+    .signup-full-width, .login-full-width {
       width: 100%;
       margin: 0%;
     }
-    .signup-card {
-      width: 40em;
-      padding: 81px 30px;
+    .signup-card, .login-card{
+      width: 35em;
       margin: 4vw auto;
     }
     mat-card-header{
@@ -76,16 +78,13 @@
       padding:0px 42px 0px 20px;
       font-size:25px;
     }
-    @media screen and (max-width: 700px) {
-        .signup-header .signup-header-background>h1{
+    
+    @media screen and (max-width: 570px) {
+        .signup-header 
+        .signup-header-background>h1{
           font-size: 24px;
           }
-          .signup{
-            width: 46.1em;
+          .signup, .login{
+            width: 41.5em;
           }
         }
-    @media screen and (max-width: 500px) {
-        .signup{
-          width: 40em;
-        }
-        }  

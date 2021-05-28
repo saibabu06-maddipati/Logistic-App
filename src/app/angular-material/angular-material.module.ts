@@ -5,6 +5,7 @@ import {MatCardModule} from '@angular/material/card';
 import { CommonModule } from '@angular/common';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatButtonModule} from '@angular/material/button';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 @NgModule({
   declarations: [],
   imports: [
@@ -12,14 +13,16 @@ import {MatButtonModule} from '@angular/material/button';
     MatInputModule,
     MatCardModule,
     MatCheckboxModule,
-    MatButtonModule
+    MatButtonModule,
+    CarouselModule.forRoot()
   ],
   exports: [
     CommonModule,
     MatInputModule,
     MatCardModule,
     MatCheckboxModule,
-    MatButtonModule
+    MatButtonModule,
+    CarouselModule
   ]
 })
 export class AngularMaterialModule { }

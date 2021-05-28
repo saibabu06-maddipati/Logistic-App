@@ -1,12 +1,1227 @@
-<app-header></app-header>
-<app-nav-bar></app-nav-bar>
-<app-side-nav-bar></app-side-nav-bar>
-<app-slider></app-slider>
-<app-actions></app-actions>
-<app-service></app-service>
-<app-quote-section></app-quote-section>
-<app-gallary></app-gallary>
-<app-parallex-testmonils></app-parallex-testmonils>
-<app-blogs></app-blogs>
-<app-clients></app-clients>
-<app-footer></app-footer>
+<!-- main top head part start-->
+<div class="container-fluid header-top-bar row justify-content-around text-muted">
+    <div class="container d-none d-md-block  col-md-7 col-lg-6 ">
+        <p class="nav-left "><span class="left-text text-dark">Opening Hours :</span> Monday to Saturday - 8am to 5pm</p>
+    </div>  
+    <!-- profile,login and signUp links starts -->
+    <div class="top-bar-nav row justify-content-md-start justify-content-end col-md-5 col-lg-4">
+        <ul class="nav-right list-unstyled">
+            <li> <a class="text-muted" href="#"><i class="fa fa-lock text-muted"></i> Login </a></li>
+            <li> <a class="text-muted" href="#"><i class="fa fa-user text-muted"></i> Sign Up </a></li>
+        </ul>
+        <!-- profile dropdown using MDBootstrap start -->
+        <div  mdbDropdown>
+            <a  href="#" class="d-block link-dark text-muted dropdown-toggle waves-light" 
+                id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" mdbDropdownToggle mdbWavesEffect>
+                <img [src]="avatharImage" alt="mdo" width="30" height="28"  class="rounded-circle">
+                <span class="p-2">Umair</span>
+              </a>
+            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+        </div> 
+        <!-- profile dropdown using MDBootstrap end--> 
+    </div>
+    <!-- profile,login and signUp links end -->
+</div>
+<!-- main top head part end-->
+
+<!-- logo and contact details start-->
+<div class=" container-fluid align-items-center row  col-auto logo-header text-muted" >
+  <!-- logo start -->
+  <div class="col-lg-5 justify-content-lg-around row">
+    <div class="col-sm-11 col-lg-auto  header-logoImage">
+    <img [src]="logoImage" alt="company logo">
+    </div>
+     <!-- logo end -->
+  </div>
+  <!-- contact details start -->
+  <div class="row col-lg-7  justify-content-lg-around  font-weight-bold">
+    <div class="col-sm-11 col-lg-auto">
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      <a href="#" class="text-dark">
+        EMAIL<p class="text-muted">contact@scriptsbundle.com</p>
+      </a>
+    </div>
+    <div class="col-sm-11 col-lg-auto">
+      <i class="fa  fa-mobile-phone" aria-hidden="true"></i>
+      <a href="#" class="text-dark">
+      Call Now<p class="text-muted">(92) 123-456-78</p>
+      </a>
+    </div>
+    <div class="col-sm-11 col-lg-auto">
+      <i class="fa  fa-area-chart" aria-hidden="true"></i>
+      <a href="#"class="text-dark">
+        Find Us<p class="text-muted">Model Town, Pakistan</p>
+      </a>
+    </div>
+  </div>
+  <!-- contact details end -->
+</div>
+<!-- logo and contact details end -->
+
+
+
+<!-- navbar- starts -->
+<nav class="navbar d-flex navbar-expand-sm justify-content-end navbar-dark font-weight-bold bg-dark">
+    <!-- navbar-toggle button starts -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+     aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <!-- navbar-toggle button ends -->
+    </button>
+
+    <!-- navbar links starts -->
+    <div class="collapse row justify-content-lg-center navbar-collapse" id="navbarsExample03">
+      <!-- navbar-bav class ul starts  -->
+      <ul class="navbar-nav row">
+        <!-- navbar-home starts -->
+        <li class=" col-auto nav-item active ">
+          <a class="nav-link" href="#">
+              <div class="dropdown"  mdbDropdown>
+                  <a  href="#" class="d-block text-light dropdown-toggle waves-light" 
+                      id="dropdownUser2" data-bs-toggle="dropdown" 
+                      aria-expanded="false" 
+                      mdbDropdownToggle mdbWavesEffect>
+                      
+                      <span>HOME</span>
+                    </a>
+                  <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                      <li><a class="dropdown-item" href="#">New project..gdfbfghhhgbgfb.</a></li>
+                      <li><a class="dropdown-item" href="#">Settings</a></li>
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li><a class="dropdown-item" href="#">Sign out</a></li>
+                  </ul>
+              </div> 
+              
+          </a>
+        </li>
+        <!-- navbar-home end -->
+
+        <!-- navbar-about company starts -->
+        <li class=" col-auto nav-item">
+          <a class="nav-link" href="#">  
+            <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block  text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown"
+                   aria-expanded="false" 
+                   mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>ABOUT COMPANY</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>
+        <!-- navbar-about company end -->
+
+        <!-- navbar-our services starts -->
+        <li class=" col-auto nav-item">
+          <a class="nav-link" href="#"> 
+               <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown"
+                   aria-expanded="false" 
+                   mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>OUR SERVICES</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>
+        <!-- navbar-our services ends -->
+        
+        <!-- navbar-gallery starts -->
+        <li class=" col-auto nav-item">
+          <a class="nav-link text-light nav-gallery" href="#">GALLARY</a>
+        </li>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="#">
+              <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block  text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown"
+                  aria-expanded="false" 
+                  mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>PAGES</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>
+        <!-- navbar-gallery ends -->
+
+        
+        <!-- navbar-blogs starts -->
+        <li class=" col-auto nav-item">
+          <a class="nav-link" href="#">
+              <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown" 
+                  aria-expanded="false" 
+                  mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>BLOGS</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li> 
+        <!-- navbar-blogs ends -->
+
+        <!-- navbar-cargo tracking starts -->
+        <li class=" col-auto nav-item">
+          <a class="nav-link" href="#">  
+            <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block  text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown" 
+                  aria-expanded="false" 
+                  mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span class="cargoTracking">CARGO TRACKING</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>  
+        <!-- navbar-cargo tracking ends -->
+
+        <!-- navbar-cargo booking starts -->
+        <li class="col-auto">
+          <div  class="nav-item">
+              <a class="nav-link  bg-primary text-light cargo-booking" href="#">CARGO BOOKING</a>
+          </div>
+        </li>
+        <!-- navbar-cargo booking ends -->
+      </ul>
+      <!-- navbar-bav class ul ends  -->
+    </div>
+    <!-- navbar links starts -->
+  </nav>
+  <!-- navbar ends -->
+<!-- 
+  <nav class="navbar navbar-dark font-weight-bold bg-dark">
+    <div class="collapse navbar-collapse show" id="navbarsExample03">
+      <ul class="navbar-nav ">
+        <li class=" nav-item active ">
+          <a class="nav-link" href="#">
+              <div class="dropdown"  mdbDropdown>
+                  <a  href="#" class="d-block text-light dropdown-toggle waves-light" 
+                      id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" mdbDropdownToggle mdbWavesEffect>
+                      
+                      <span>HOME</span>
+                    </a>
+                  <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                      <li><a class="dropdown-item" href="#">New project..gdfbfghhhgbgfb.</a></li>
+                      <li><a class="dropdown-item" href="#">Settings</a></li>
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li><a class="dropdown-item" href="#">Sign out</a></li>
+                  </ul>
+              </div> 
+              
+          </a>
+        </li>
+        <li class=" nav-item">
+          <a class="nav-link" href="#">  
+            <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block  text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>ABOUT COMPANY</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>
+        <li class=" nav-item">
+          <a class="nav-link" href="#"> 
+               <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>OUR SERVICES</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>
+        <li class=" nav-item d-none d-md-block">
+          <a class="nav-link text-light" href="#">GALLARY</a>
+        </li>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="#">
+              <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>PAGES</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>
+        <li class=" nav-item">
+          <a class="nav-link" href="#">
+              <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span>BLOGS</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#">  
+            <div class="dropdown"  mdbDropdown>
+              <a  href="#" class="d-block  text-light dropdown-toggle waves-light" 
+                  id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" mdbDropdownToggle mdbWavesEffect>
+                  
+                  <span class="cargoTracking">CARGO TRACKING</span>
+                </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div> 
+          </a>
+        </li>  
+        
+        <li class="">
+          <div  class="nav-item">
+              <a class="nav-link bg-primary text-light" href="#">CARGO BOOKING</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ -->
+ <!-- mdb carousel slider start -->
+<div class="slider">
+    <mdb-carousel [isControls]="true" [animation]="'slide'"  class="slide">
+        <!-- slider one start -->
+        <mdb-carousel-item class="carousel-item-slider">
+          <div class="view w-100">
+            <img class="d-block w-100" [src]="slidesOne" alt="First slide">
+          </div>
+          <div class="carousel-caption slide-style slide-one animated bounce infinite">
+            <h1 class="h1-responsive text-uppercase  ">Ground or Air</h1>
+            <h1 class="text-lg-large text-uppercase font-weight-bold">Providing Logistic Services</h1>
+            <span> We provides always our best services for our clients and  always</span>
+             <span>try to achieve our client's trust and satisfaction.</span>
+                <button class="btn btn-primary active" role="button" aria-pressed="true">contact Now</button>
+          </div>
+        </mdb-carousel-item>
+        <!-- slider one end -->
+        <!-- slider two start -->
+        <mdb-carousel-item class="carousel-item-slider">
+          <div class="view w-100">
+            <img class="d-block w-100" [src]="slidesTwo" alt="Second slide">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+          </div>
+          <div class="carousel-caption slide-style slide-two">
+            <h1 class="h1-responsive">We Provide Solutions</h1>
+            <h1>Logistic Services</h1>
+            <span>We provides always our best services for our clients and  always</span>
+            <span>  try to achieve our client's trust and satisfaction.</span>
+            <button class="btn btn-primary active" role="button" aria-pressed="true">request quote</button>
+          </div>
+        </mdb-carousel-item>
+        <!-- slider two end -->
+        <!-- slider theree start -->
+        <mdb-carousel-item class="carousel-item-slider">
+          <div class="view w-100">
+            <img class="d-block w-100" [src]="slidesThree" alt="Third slide">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+          </div>
+          <div class="carousel-caption slide-style slide-three">
+            <span class="h1-responsive text-uppercase font-weight-bold">Providing Services Since 1970 -</span>
+            <h2>We Provide Solutions</h2>
+            <button class="btn btn-primary active" role="button" aria-pressed="true">contact now</button>
+          </div>
+        </mdb-carousel-item>
+        <!-- slider theree end -->
+        <!-- slider four start -->
+        <mdb-carousel-item class="carousel-item-slider">
+            <div class="view w-100">
+              <img class="d-block w-100" [src]="slidesFour" alt="Third slide">
+              <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+            </div>
+            <div class="carousel-caption slide-style slide-four">
+                <h1 class="h1-responsive text-uppercase font-weight-bold">Ground or Air</h1>
+            <h1 class="text-lg-large text-uppercase font-weight-bold">Providing Logistic Services</h1>
+            <span> We provides always our best services for our clients and  always</span>
+             <span>try to achieve our client's trust and satisfaction.</span>
+                <button class="btn btn-primary active" role="button" aria-pressed="true">contact Now</button>
+              </div>
+          </mdb-carousel-item>
+          <!-- slider four end -->
+      </mdb-carousel>
+    <!-- mdb carousel slider end-->
+    </div>
+    
+ <!-- =-=-=-=-=-=-= Call To Action =-=-=-=-=-=-= -->
+<div class="container-fluid row bg-primary text-white callToAction">
+    <div class="col-md-8 col-sm-8 row justify-content-center font-weight-bold align-items-center text-capitalize">
+       <h4>Not sure which solution fits you business needs?</h4>
+    </div>
+    <!-- end col-md-8 -->
+    <div class="col-md-4 col-sm-4 ">
+       <button class="page-scroll btn btn-lg btn-outline-light btn-clean text-capitalize">Get a quote <i class="fa fa-angle-double-right "></i></button>
+    <!-- end parallex-button -->
+    </div>
+ <!-- end container -->
+ </div>
+   <!-- =-=-=-=-=-=-= Call To Action End =-=-=-=-=-=-= -->
+ 
+
+    <!-- =-=-=-=-=-=-= Services =-=-=-=-=-=-= -->
+    <div class="servicesContainer flex row justify-content-center">
+        <!-- services-grid-1 -->
+        <div class="services-grid-1  col-lg-4 col-sm-12">
+          <div class="service-image  ">
+            <a href="#"><img alt="" [src]="service[0]"></a>
+        </div>
+        <div class="services-text">
+          <h3>Fast & Safe Delivery</h3>
+          <p>Fusce pretium nulla et purus malesuada feugiat sed vel mauris tincidunt vehicula lorem vel hendrerit justo praesent aliquam maximus imperdiet integer sagittis leo</p>
+          <button class="btn btn-primary"> READ MORE</button>
+        </div>
+        </div>
+        <div class="services-grid-1  col-lg-4 col-sm-12">
+          <div class="service-image">
+            <a href="#"><img alt="" [src]="service[1]"></a>
+        </div>
+        <div class="services-text">
+          <h3>Internation Air Freight</h3>
+          <p>Fusce pretium nulla et purus malesuada feugiat sed vel mauris tincidunt vehicula lorem vel hendrerit justo praesent aliquam maximus imperdiet integer sagittis leo</p>
+          <button class="btn btn-primary"> READ MORE</button>
+        </div>
+        </div>
+        <div class="services-grid-1  col-lg-4 col-sm-12">
+          <div class="service-image">
+            <a href="#"><img alt="" [src]="service[2]"></a>
+        </div>
+        <div class="services-text">
+          <h3>Ground Shipping</h3>
+          <p>Fusce pretium nulla et purus malesuada feugiat sed vel mauris tincidunt vehicula lorem vel hendrerit justo praesent aliquam maximus imperdiet integer sagittis leo</p>
+         <button class="btn btn-primary"> READ MORE</button>
+        </div>
+        </div>
+      </div>
+              <!-- =-=-=-=-=-=-= Services =-=-=-=-=-=-= -->
+
+
+<!-- Our services -->
+<div class= "our-services">
+  <div class="container">
+    <div class="main-heading text-center">
+      <h1 class="text-uppercase font-weight-bold p-3">our services</h1>
+      <p class="p-3">Cras varius purus in tempus porttitor ut dapibus efficitur sagittis cras vitae lacus metus nunc vulputate facilisis nisi <br>
+                 eu lobortis erat consequat ut. Aliquam et justo ante. Nam a cursus velit</p>
+    </div>
+  </div>
+  <div class="container">
+    <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'"
+              [animation]="'slide'">
+      <mdb-carousel-item >
+        <div class="col-md-4">
+          <mdb-card class="my-1">
+            <mdb-card-body>
+              <mdb-card-title>
+              
+                <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                <h3>Cargo</h3>
+              </mdb-card-title>
+              <p>We have the right caring, experience and dedicated professional for you.</p>
+              <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+            </mdb-card-body>
+          </mdb-card>
+        </div>
+        <div class="col-md-4">
+          <mdb-card class="my-1">
+            <mdb-card-body>
+              <mdb-card-title>
+              
+                <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                <h3>Cargo</h3>
+              </mdb-card-title>
+              <p>We have the right caring, experience and dedicated professional for you.</p>
+              <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+            </mdb-card-body>
+          </mdb-card>
+        </div>
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+
+ 
+</div>
+
+
+
+<!-- Quote section -->
+
+<section class="quoteSection" id="quote">
+    <div class="container">
+        <div class="row clearfix">
+  
+            <!--Column-->
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 ">
+                <div class="choose-title">
+                    <h5 class="font-italic">More about us</h5>
+                    <h1 class="font-weight-bold text-uppercase">Why People Choose Us</h1>
+                    <p class="text-muted">Ut consequat velit a metus accumsan, vel tempor nulla blandit. Integer euismod magna vel mi congue suscipit. Praesent quis facilisis neque. Donec scelerisque nibh vitae sapien ornare efficitur.</p>
+                </div>
+                <div class="choose-services">
+                    <ul class="choose-list">
+  
+                        <!-- feature -->
+                        <li>
+                            <div class="choose-box"> <span class="iconbox"><i class="fas fa-truck-moving"></i></span>
+                                <div class="choose-box-content">
+                                    <h3>Fast Worldwide delivery</h3>
+                                    <p class="text-muted">Donec dignissim enim id urna fermentum, non hendrerit sem volutpat ellentesque pretium sapien nec metus.non hendrerit sem volutpat ellentesque pretium sapien nec metus</p>
+                                </div>
+                            </div>
+                        </li>
+  
+                        <!-- feature -->
+                        <li>
+                            <div class="choose-box"> <span class="iconbox"><i class="flaticon-woman-with-headset"></i></span>
+                                <div class="choose-box-content">
+                                    <h3>Safety & Compliance</h3>
+                                    <p class="text-muted">Donec dignissim enim id urna fermentum, non hendrerit sem volutpat ellentesque pretium sapien nec metus.non hendrerit sem volutpat ellentesque pretium sapien nec metus</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- end choose-list -->
+                </div>
+            </div>
+  
+            <!-- Quote Form -->
+            <div class="col-lg-5 col-md-12 col-sm-12 no-extra col-xs-12">
+                <div class="quotation-box">
+                    <h1 class="text-light font-weight-bold">REQUEST A QUOTE</h1>
+                    <div class="desc-text text-light">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                    <form action="contact.html" method="post">
+                        <div class="row clearfix">
+  
+                            <!--Form Group-->
+                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                <input class="form-control" type="text" placeholder="Your Name" value="" name="your-name">
+                            </div>
+  
+                            <!--Form Group-->
+                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                <input class="form-control" type="text" placeholder="Subject" value="" name="your-subject">
+                            </div>
+  
+                            <!--Form Group-->
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <input class="form-control" type="email" placeholder="Email Address" value="" name="your-email">
+                            </div>
+  
+                            <!--Form Group-->
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <select class="form-control" name="sel-location">
+              <option>Select Location</option>
+              <option>Afghanistan</option>
+              <option>Albania</option>
+              <option>Algeria</option>
+              <option>American Samoa</option>
+              <option>Andorra</option>
+              <option>Angola</option>
+              <option>Anguilla</option>
+              <option>Antarctica</option>
+              <option>Argentina</option>
+              <option>Armenia</option>
+              <option>Aruba</option>
+              <option>Australia</option>
+              <option>Austria</option>
+              <option>Azerbaijan</option>
+              <option>Bahamas</option>
+              <option>Bahrain</option>
+              <option>Bangladesh</option>
+              <option>Barbados</option>
+              <option>Belarus</option>
+              <option>Belgium</option>
+              <option>Belize</option>
+              <option>Benin</option>
+              <option>Bermuda</option>
+              <option>Bhutan</option>
+              <option>Bolivia</option>
+              <option>Botswana</option>
+              <option>Bouvet Island</option>
+              <option>Brazil</option>
+              <option>Brunei Darussalam</option>
+              <option>Bulgaria</option>
+              <option>Burkina Faso</option>
+              <option>Burundi</option>
+              <option>Cambodia</option>
+              <option>Cameroon</option>
+              <option>Canada</option>
+              <option>Cape Verde</option>
+              <option>Cayman Islands</option>
+              <option>Chad</option>
+              <option>Chile</option>
+              <option>China</option>
+              <option>Christmas Island</option>
+              <option>Cocos Islands</option>
+              <option>Colombia</option>
+              <option>Comoros</option>
+              <option>Congo</option>
+              <option>Cook Islands</option>
+              <option>Costa Rica</option>
+              <option>Cote d'Ivoire</option>
+              <option>Croatia</option>
+              <option>Cuba</option>
+              <option>Cyprus</option>
+              <option>Czech Republic</option>
+              <option>Denmark</option>
+              <option>Djibouti</option>
+              <option>Dominica</option>
+              <option>Dominican Republic</option>
+              <option>Ecuador</option>
+              <option>Egypt</option>
+              <option>El Salvador</option>
+              <option>Equatorial Guinea</option>
+              <option>Eritrea</option>
+              <option>Estonia</option>
+              <option>Ethiopia</option>
+              <option>Faroe Islands</option>
+              <option>Fiji</option>
+              <option>Finland</option>
+              <option>France</option>
+              <option>French Guiana</option>
+              <option>Gabon</option>
+              <option>Gambia</option>
+              <option>Georgia</option>
+              <option>Germany</option>
+              <option>Ghana</option>
+              <option>Gibraltar</option>
+              <option>Greece</option>
+              <option>Greenland</option>
+              <option>Grenada</option>
+              <option>Guadeloupe</option>
+              <option>Guam</option>
+              <option>Guatemala</option>
+              <option>Guinea</option>
+              <option>Guinea-Bissau</option>
+              <option>Guyana</option>
+              <option>Haiti</option>
+              <option>Honduras</option>
+              <option>Hong Kong</option>
+              <option>Hungary</option>
+              <option>Iceland</option>
+              <option>India</option>
+              <option>Indonesia</option>
+              <option>Iran</option>
+              <option>Iraq</option>
+              <option>Ireland</option>
+              <option>Israel</option>
+              <option>Italy</option>
+              <option>Jamaica</option>
+              <option>Japan</option>
+              <option>Jordan</option>
+              <option>Kazakhstan</option>
+              <option>Kenya</option>
+              <option>Kiribati</option>
+              <option>Kuwait</option>
+              <option>Kyrgyzstan</option>
+              <option>Laos</option>
+              <option>Latvia</option>
+              <option>Lebanon</option>
+              <option>Lesotho</option>
+              <option>Liberia</option>
+              <option>Libya</option>
+              <option>Liechtenstein</option>
+              <option>Lithuania</option>
+              <option>Luxembourg</option>
+              <option>Macao</option>
+              <option>Madagascar</option>
+              <option>Malawi</option>
+              <option>Malaysia</option>
+              <option>Maldives</option>
+              <option>Mali</option>
+              <option>Malta</option>
+              <option>Marshall Islands</option>
+              <option>Martinique</option>
+              <option>Mauritania</option>
+              <option>Mauritius</option>
+              <option>Mayotte</option>
+              <option>Mexico</option>
+              <option>Micronesia</option>
+              <option>Moldova</option>
+              <option>Monaco</option>
+              <option>Mongolia</option>
+              <option>Montenegro</option>
+              <option>Montserrat</option>
+              <option>Morocco</option>
+              <option>Mozambique</option>
+              <option>Myanmar</option>
+              <option>Namibia</option>
+              <option>Nauru</option>
+              <option>Nepal</option>
+              <option>Netherlands</option>
+              <option>New Caledonia</option>
+              <option>New Zealand</option>
+              <option>Nicaragua</option>
+              <option>Niger</option>
+              <option>Nigeria</option>
+              <option>Norfolk Island</option>
+              <option>North Korea</option>
+              <option>Norway</option>
+              <option>Oman</option>
+              <option>Pakistan</option>
+              <option>Palau</option>
+              <option>Panama</option>
+              <option>Papua New Guinea</option>
+              <option>Paraguay</option>
+              <option>Peru</option>
+              <option>Philippines</option>
+              <option>Pitcairn</option>
+              <option>Poland</option>
+              <option>Portugal</option>
+              <option>Puerto Rico</option>
+              <option>Qatar</option>
+              <option>Romania</option>
+              <option>Russian Federation</option>
+              <option>Rwanda</option>
+              <option>Saint Helena</option>
+              <option>Saint Lucia</option>
+              <option>Samoa</option>
+              <option>San Marino</option>
+              <option>Sao Tome and Principe</option>
+              <option>Saudi Arabia</option>
+              <option>Senegal</option>
+              <option>Serbia</option>
+              <option>Seychelles</option>
+              <option>Sierra Leone</option>
+              <option>Singapore</option>
+              <option>Slovakia</option>
+              <option>Slovenia</option>
+              <option>Solomon Islands</option>
+              <option>Somalia</option>
+              <option>South Africa</option>
+              <option>South Georgia</option>
+              <option>South Korea</option>
+              <option>Spain</option>
+              <option>Sri Lanka</option>
+              <option>Sudan</option>
+              <option>Suriname</option>
+              <option>Swaziland</option>
+              <option>Sweden</option>
+              <option>Switzerland</option>
+              <option>Taiwan</option>
+              <option>Tajikistan</option>
+              <option>Tanzania</option>
+              <option>Thailand</option>
+              <option>Timor-Leste</option>
+              <option>Togo</option>
+              <option>Tokelau</option>
+              <option>Tonga</option>
+              <option>Tunisia</option>
+              <option>Turkey</option>
+              <option>Turkmenistan</option>
+              <option>Tuvalu</option>
+              <option>Uganda</option>
+              <option>Ukraine</option>
+              <option>United Arab Emirates</option>
+              <option>United Kingdom</option>
+              <option>United States</option>
+              <option>Uruguay</option>
+              <option>Uzbekistan</option>
+              <option>Vanuatu</option>
+              <option>Vatican City</option>
+              <option>Venezuela</option>
+              <option>Vietnam</option>
+              <option>Wallis and Futuna</option>
+              <option>Western Sahara</option>
+              <option>Yemen</option>
+              <option>Zambia</option>
+              <option>Zimbabwe</option>
+            </select>
+                            </div>
+  
+                            <!--Form Group-->
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <textarea class="form-control" rows="7" cols="20" placeholder="Your Message" name="your-message"></textarea>
+                            </div>
+  
+                            <!--Form Group-->
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12 text-right"> <button class="btn btn-lg btn-outline-light">Submit Request</button> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <!-- =-=-=-=-=-=-= Quote Seection end=-=-=-=-=-=-= -->
+  
+ 
+<!-- gallery start -->
+<div class="jumbotron gallery-box">
+    <div class="container">
+      <!-- gallery main heading start -->
+      <div class="main-heading text-center">
+        <h1 class="text-uppercase font-weight-bold p-3">OUR GALLERY</h1>
+        <p class="p-3">Cras varius purus in tempus porttitor ut dapibus efficitur sagittis cras vitae lacus metus nunc vulputate facilisis nisi <br>
+           eu lobortis erat consequat ut. Aliquam et justo ante. Nam a cursus velit</p>
+      </div>
+      <!-- gallery main heading end -->
+      <!-- gallery images with galleryImages array start -->
+      <div class="row ">
+          <div class="col-md-4 my-2" *ngFor='let image of galleryImages'>
+            <div class="content" > <a href="#">
+                    <div class="content-overlay"></div> <img class="content-image" [src]="image">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Project Title</h3>
+                        <p class="content-text fadeIn-bottom"><a href="#" > App Design</a></p>
+                    </div>
+                </a> </div>
+        </div>
+      </div>
+      <!-- gallery images with galleryImages array end -->
+    </div>
+  </div>
+  <!-- gallery end -->
+  
+<!-- =-=-=-=-=-=-= PARALLEX TESTIMONILS start =-=-=-=-=-=-= -->
+<div class="parallex-testmonils">
+    <mdb-carousel [isControls]="true" [animation]="'slide'">
+      <mdb-carousel-item class="carousel-item-slider">
+        <div class="view w-100">
+          <img class="d-block w-100" [src]="slidesOne" alt="Third slide">
+          <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+      <img [src]="adminImage" class="img-fluid rounded-circle" alt="Cinque Terre" width="150" height="150"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Aliquam lacus lectus a quam eget, fringilla suscipit sapien. 
+        Duis aliquet malesuada ipsum non sodales. Suspendisse a consequat leo.
+         Fusce tempus vitae erat at consequat. Aenean commodo felis odio, 
+         ut congue est mollis non. Sed tincidunt.</p>
+         <div class="text-uppercase font-weight-bold">John Doe</div>
+         <div class="profession">Founder, Oxford</div>
+        </div>
+      </mdb-carousel-item>
+      <mdb-carousel-item class="carousel-item-slider">
+        <div class="view w-100">
+          <img class="d-block w-100" [src]="slidesOne" alt="Third slide">
+          <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+      <img [src]="adminImage" class="img-fluid rounded-circle" alt="Cinque Terre" width="150" height="150"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Aliquam lacus lectus a quam eget, fringilla suscipit sapien. 
+        Duis aliquet malesuada ipsum non sodales. Suspendisse a consequat leo.
+         Fusce tempus vitae erat at consequat. Aenean commodo felis odio, 
+         ut congue est mollis non. Sed tincidunt.</p>
+         <div class="text-uppercase font-weight-bold">John Doe</div>
+         <div class="profession">Founder, Oxford</div>
+        </div>
+      </mdb-carousel-item>
+      <mdb-carousel-item class="carousel-item-slider">
+        <div class="view w-100">
+          <img class="d-block w-100" [src]="slidesOne" alt="Third slide">
+          <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+      <img [src]="adminImage" class="img-fluid rounded-circle" alt="Cinque Terre" width="150" height="150"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Aliquam lacus lectus a quam eget, fringilla suscipit sapien. 
+        Duis aliquet malesuada ipsum non sodales. Suspendisse a consequat leo.
+         Fusce tempus vitae erat at consequat. Aenean commodo felis odio, 
+         ut congue est mollis non. Sed tincidunt.</p>
+         <div class="text-uppercase font-weight-bold">John Doe</div>
+         <div class="profession">Founder, Oxford</div>
+        </div>
+      </mdb-carousel-item>
+      <mdb-carousel-item class="carousel-item-slider">
+        <div class="view w-100">
+          <img class="d-block w-100" [src]="slidesOne" alt="Third slide">
+          <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption">
+      <img [src]="adminImage" class="img-fluid rounded-circle" alt="Cinque Terre" width="150" height="150"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Aliquam lacus lectus a quam eget, fringilla suscipit sapien. 
+        Duis aliquet malesuada ipsum non sodales. Suspendisse a consequat leo.
+         Fusce tempus vitae erat at consequat. Aenean commodo felis odio, 
+         ut congue est mollis non. Sed tincidunt.</p>
+         <div class="text-uppercase font-weight-bold">John Doe</div>
+         <div class="profession">Founder, Oxford</div>
+        </div>
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+        <!-- =-=-=-=-=-=-= PARALLEX TESTIMONILS END =-=-=-=-=-=-= -->
+    
+    
+    
+
+    <!-- =-=-=-=-=-=-= Blog & News =-=-=-=-=-=-= -->
+
+    <section id="blog" class="custom-padding container">
+      <!-- title-section -->
+          <div class="main-heading text-center p-2">
+              <h1>OUR BLOG</h1>
+              <p>Cras varius purus in tempus porttitor ut dapibus efficitur sagittis 
+                cras vitae lacus metus nunc vulputate facilisis nisi <br> 
+                eu lobortis erat consequat ut. Aliquam et justo ante. Nam a cursus velit</p>
+          </div>
+          <!-- title-section end -->
+        
+        <div class="row blog-cards">
+            <div class="card col-sm-12 col-md-12 col-lg-4">
+              <div class="titel-image">
+                <img [src]="blogImageOne" class="card-img-top" alt="...">
+              </div>
+              <div class="date-month font-weight-bold">
+                <div class="date"> <strong>21</strong></div>
+                <div class="month text-uppercase text-white"><span>Jun</span> </div>
+              </div>
+              <div class="card-body">
+                <div class="news-detail">
+                  <h5 class="text-capitalize w-100"><a title="" href="#">top benefits of hiring our logistics service</a></h5>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
+    
+                  <div class="card-footer">
+                      <div class="post-meta row text-muted ">
+                          <div class="post-admin col-6 "> <i class="fa fa-user-circle-o"></i>Posted by<a href="#">Admin</a> </div>
+                          <div class="post-comment col-3"> <i class="fa fa-circle-o"></i> <a href="#">217</a> </div>
+                          <div class="post-like col-3"> <i class="fa fa-circle-o"></i> <a href="#">130</a> </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-12 col-lg-4" >
+              <div class="titel-image">
+                <img [src]="blogImageTwo" class="card-img-top" alt="...">
+              </div>
+              <div class="date-month font-weight-bold">
+                <div class="date"> <strong>21</strong></div>
+                <div class="month text-uppercase text-white"><span>Jun</span> </div>
+              </div>
+              <div class="card-body">
+                <div class="news-detail">
+                  <h5 class="text-capitalize w-100"><a title="" href="#">top benefits of hiring our logistics service</a></h5>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
+    
+                  <div class="card-footer">
+                      <div class="post-meta row text-muted ">
+                          <div class="post-admin  col-6 "> <i class="fa fa-user-circle-o"></i>Posted by<a href="#">Admin</a> </div>
+                          <div class="post-comment col-3"> <i class="fa fa-circle-o"></i> <a href="#">217</a> </div>
+                          <div class="post-like col-3"> <i class="fa fa-circle-o"></i> <a href="#">130</a> </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-12 col-lg-4">
+              <div class="titel-image">
+                <img [src]="blogImageThree" class="card-img-top" alt="...">
+              </div>
+              <div class="date-month font-weight-bold">
+                <div class="date"> <strong>21</strong></div>
+                <div class="month text-uppercase text-white"><span>Jun</span> </div>
+              </div>
+              <div class="card-body">
+                <div class="news-detail">
+                  <h5 class="text-capitalize w-100"><a title="" href="#">top benefits of hiring our logistics service</a></h5>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
+    
+                  <div class="card-footer">
+                      <div class="post-meta row text-muted ">
+                          <div class="post-admin col-6 "> <i class="fa fa-user-circle-o"></i>Posted by<a href="#">Admin</a> </div>
+                          <div class="post-comment col-3"> <i class="fa fa-circle-o"></i> <a href="#">217</a> </div>
+                          <div class="post-like col-3"> <i class="fa fa-circle-o"></i> <a href="#">130</a> </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+        </div>
+    </section>
+        <!-- =-=-=-=-=-=-= Blog & News end =-=-=-=-=-=-= -->
+    
+
+    <!-- =-=-=-=-=-=-= Our Clients =-=-=-=-=-=-= -->
+
+    <div class="jumbotron jumbotron-fluid our-clients">
+        <div class="container">
+          <!-- title-section -->
+          <div class="main-heading text-center">
+            <h1 class="text-uppercase font-weight-bold p-2">our partners</h1>
+            <p>Cras varius purus in tempus porttitor ut dapibus efficitur sagittis cras vitae lacus metus nunc vulputate facilisis nisi <br> eu lobortis erat consequat ut. Aliquam et justo ante. Nam a cursus velit</p>
+        </div>
+        <!-- End title-section -->
+        </div>
+
+          <!-- client slider container start -->
+          <div class="container">
+            <mdb-carousel [isControls]="true" class=" multi-animation" [type]="'carousel-multi-item'"
+                      [animation]="'slide'">
+              <mdb-carousel-item  class="carousel-multi-item">
+                <div class="col-md-4">
+                  <mdb-card class="my-1">
+                    <mdb-card-body>
+                      <mdb-card-title>
+                      
+                        <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                        <h5>Cargo</h5>
+                      </mdb-card-title>
+                      <p>We have the right caring, experience and dedicated professional for you.</p>
+                      <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+                    </mdb-card-body>
+                  </mdb-card>
+                </div>
+                <div class="col-md-4">
+                  <mdb-card class="my-1">
+                    <mdb-card-body>
+                      <mdb-card-title>
+                      
+                        <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                        <h5>Cargo</h5>
+                      </mdb-card-title>
+                      <p>We have the right caring, experience and dedicated professional for you.</p>
+                      <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+                    </mdb-card-body>
+                  </mdb-card>
+                </div>
+                <div class="col-md-4">
+                  <mdb-card class="my-1">
+                    <mdb-card-body>
+                      <mdb-card-title>
+                      
+                        <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                        <h5>Cargo</h5>
+                      </mdb-card-title>
+                      <p>We have the right caring, experience and dedicated professional for you.</p>
+                      <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+                    </mdb-card-body>
+                  </mdb-card>
+                </div>
+              </mdb-carousel-item>
+              <mdb-carousel-item class="carousel-multi-item">
+                <div class="col-md-4">
+                  <mdb-card class="my-1">
+                    <mdb-card-body>
+                      <mdb-card-title>
+                      
+                        <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                        <h5>Cargo</h5>
+                      </mdb-card-title>
+                      <p>We have the right caring, experience and dedicated professional for you.</p>
+                      <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+                    </mdb-card-body>
+                  </mdb-card>
+                </div>
+                <div class="col-md-4">
+                  <mdb-card class="my-1">
+                    <mdb-card-body>
+                      <mdb-card-title>
+                      
+                        <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                        <h5>Cargo</h5>
+                      </mdb-card-title>
+                      <p>We have the right caring, experience and dedicated professional for you.</p>
+                      <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+                    </mdb-card-body>
+                  </mdb-card>
+                </div>
+                <div class="col-md-4">
+                  <mdb-card class="my-1">
+                    <mdb-card-body>
+                      <mdb-card-title>
+                      
+                        <h4><i class="fa fa-eercast" aria-hidden="true"></i></h4>
+                        <h5>Cargo</h5>
+                      </mdb-card-title>
+                      <p>We have the right caring, experience and dedicated professional for you.</p>
+                      <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect></a>
+                    </mdb-card-body>
+                  </mdb-card>
+                </div>
+              </mdb-carousel-item>
+            </mdb-carousel>
+          </div>
+          <!-- client slider container end -->
+      </div>
+      
+      <!-- =-=-=-=-=-=-= Our Clients -end =-=-=-=-=-=-= -->
+      
+
+
+
+      <footer>
+        <!--Footer Upper-->
+         <div class="complete-footer text-light ">
+           <div class="footer-content bg-dark">
+                 <div class="row clearfix  ">
+       
+                     <!--frist column-->
+                     <div class="col-md-12 col-lg-6 col-sm-12 col-xs-12">
+                         <div class="row clearfix">
+                             <div class="col-lg-7 col-sm-6 col-md-8 col-xs-12 column">
+                                 <div class="footer-widget about-widget">
+                                     <div class="footer-logo">
+                                         <a href="#"><img [src]="logoImage" class="img-responsive" alt=""></a>
+                                     </div>
+                                     
+                                     <ul class="contact-info">
+                                         <li><span class="icon fa fa-map-marker"></span><a href="#">60 Link Road Lhr. Pakistan 54770</a></li>
+                                         <li><span class="icon fa fa-phone"></span><a href="#">(042) 1234567890</a></li>
+                                         <li><span class="icon fa fa-envelope-o"></span><a href="#"> contant@scriptsbundle.com</a></li>
+                                         <li><span class="icon fa fa-fax"></span><a href="#">(042) 1234 7777</a></li>
+       
+                                     </ul>
+                                     <div class="social-links-two clearfix"> 
+                                       <a href="#" class="facebook"><span class="fa fa-facebook-f"></span></a> 
+                                       <a href="#" class="twitter"><span class="fa fa-twitter"></span></a> 
+                                       <a href="#" class="google-plus"><span class="fa fa-google-plus"></span></a>
+                                        <a href="#" class="linkedin"><span class="fa fa-pinterest-p"></span></a> 
+                                        <a href="#" class="linkedin"><span class="fa fa-linkedin"></span></a> 
+                                     </div>
+                                 </div>
+                             </div>
+       
+                             <!--Footer Column-->
+                             <div class="col-lg-5 col-md-4 col-sm-5 col-xs-12 column  text-white">
+                                 <div class="footer-widget links-widget">
+                                   <h2>Our Service</h2>
+                                     <ul class="contact-info">
+                                         <li><a href="#">Packaging And Storage</a></li>
+                                         <li><a href="#">worldwide transport</a></li>
+                                         <li><a href="#">Internation Air Freight</a></li>
+                                         <li><a href="#">ground shipping</a></li>
+                                         <li><a href="#">24/7 Support</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--first column End-->
+       
+                     <!--second column-->
+                     <div class="col-md-12 col-lg-6 col-sm-12 col-xs-12 w-100 second-column" >
+                         <div class="row clearfix">
+                             <!--Footer Column-->
+                             <div class=" footer-widget col-lg-8 col-sm-7 col-md-8 col-xs-12 column p-0 w-100">
+                                 <div class="news-widget text-white p-0">
+                                     <!--News Post-->
+                                     <div class="row flex align-items-center new-post-main ">
+                                        <h2>Latest News</h2>
+                                         <div class="news-post row w-100" *ngFor="let image of popularImages">
+                                             <div class="news-content  col-4 " >
+                                                 <figure class="image-thumb  my-0">
+                                                   <img [src]="image" alt="" width="80px" height="50px ">
+                                                 </figure>
+                                             </div>
+                                             <div class="news-content col-8 w-100" >
+                                                 <a href="#">top benefits of hiring our professional logistics service</a>
+                                                 <div class="time font-italic">June 21, 2016</div>
+                                             </div> 
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+       
+                             <!--Footer Column-->
+                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                 <div class="footer-widget links-widget  text-white p-0">
+                                     <h2>Site Links</h2>
+                                     <ul class="contact-info">
+                                         <li><a href="about.html">About Us</a></li>
+                                         <li><a href="team.html">Our Team</a></li>
+                                         <li><a href="services.html">Our Services</a></li>
+                                         <li><a href="index-7.html">Blog</a></li>
+                                         <li><a href="contact.html">Contact Us</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--second column End-->
+             </div>
+           </div>
+       
+       <!--Footer Bottom-->
+           <div class="footer-copyright  bg-dark">
+             <div class="auto-container clearfix">
+                 <!--Copyright-->
+                 <div class="copyright text-center">Copyright 2016 &copy; Theme Created By <a target="_blank" href="#">Scriptsbundle</a> All Rights Reserved</div>
+             </div>
+           </div>
+         </div>
+       </footer>
