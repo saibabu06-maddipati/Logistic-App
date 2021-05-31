@@ -46,16 +46,7 @@
       .signup-card- span:first-child{
         font-family: serif;
       }
-  .signup-form ,mat-checkbox ,mat-card-action>button, 
-  .login-form ,mat-checkbox ,mat-card-action>button {
-      width: 100%;
-      font-size: 18px;
-    }
-    
-    .signup-full-width, .login-full-width {
-      width: 100%;
-      margin: 0%;
-    }
+
     .signup-card, .login-card{
       width: 35em;
       margin: 4vw auto;
@@ -67,17 +58,11 @@
     mat-card-content{
       margin-bottom: 0px;
     }
-    mat-card-actions{
-      display: flex;
-      padding-top:0px ;
-      margin: 0px 6px ;
-      height: 55px;
-      justify-content:space-between;
-    }
-    mat-card-actions>button{
-      padding:0px 42px 0px 20px;
+  button{
+      padding:0px 20px 0px 20px;
       font-size:25px;
     }
+    
     
     @media screen and (max-width: 570px) {
         .signup-header 

@@ -8,6 +8,9 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './Home-page/homepage.component';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormlyModule } from '@ngx-formly/core';
+import { FormlyMaterialModule } from '@ngx-formly/material';
 
 
 
@@ -23,7 +26,12 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
-    AngularMaterialModule
+    AngularMaterialModule,
+    ReactiveFormsModule,
+    FormlyModule.forRoot({ validationMessages: [
+      { name: 'required', message: 'This field is required' },
+    ],extras: { lazyRender: true } }),
+    FormlyMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

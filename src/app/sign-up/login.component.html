@@ -1,0 +1,81 @@
+
+<!-- signup class start -->
+<div class="signup">
+    <!-- signup-heading start -->
+      <div class="signup-header">
+        <!-- identity check  start -->
+        <div class="signup-header-background d-flex justify-content-between">
+          <div>
+            <p class="">prove your identity</p>
+            <h1 class="">SIGN UP</h1>
+            <h1 class="">LOG IN</h1>
+
+          </div>
+          <div>
+            <span><a href="#">Home</a></span>/
+            <span><a href="#">Pages</a></span>/
+            <span><a href="#">Sign Up</a></span>
+          </div>
+        </div>
+         <!-- identity check  end -->
+      </div>
+      <!-- signup-heading end -->
+      <!-- signup card starts -->
+      <mat-card class="signup-card">
+        <mat-card-header>
+          <mat-card-title>
+            <div class="text-center">
+                Register A New Account
+            </div>
+            <div class="registerd-user">
+                <span>Already Signed Up? Click <a href="#"> Sign In </a> to login your account.</span>
+            </div>
+          </mat-card-title>
+        </mat-card-header>
+        <hr>
+        <!-- login form starts -->
+        <!-- signup card end -->
+            <mat-card-content>
+                <!-- sign up form start -->
+                <form [formGroup]="signUpForm" (ngSubmit)="register()">
+                    <formly-form [model]="signUpModel" [fields]="signUpFields" [options]="signUpOptions" [form]="signUpForm"></formly-form>
+                    <button type="submit" class="btn btn-primary submit-button">Register</button>
+                  </form>
+                  <!-- sign up form end -->
+              </mat-card-content>
+      <!-- signup card end -->
+    </mat-card>
+</div>
+<!-- signup class end -->
+
+
+<!-- login class start -->
+<div class="login">
+    <!-- login card starts -->
+    <mat-card class="login-card">
+        <mat-card-header>
+            <mat-card-title>
+            Login To Your Account
+            </mat-card-title>
+        </mat-card-header>
+        <hr>
+        <!-- login starts -->
+        <mat-card-content>
+            <!-- login form starts -->
+            <form [formGroup]="logInForm" (ngSubmit)="logIn()">
+                <formly-form [model]="logInModel" [fields]="logInFields" [options]="logInOptions" [form]="logInForm"></formly-form>
+                <button type="submit" class="btn btn-primary  submit-button">Login</button>
+            </form>
+            <!-- login form starts -->
+        </mat-card-content>
+        <!-- login end -->
+        <!-- password reset start -->
+        <div class="login-card-footer">
+            <span>Forget your Password ?</span><br>
+            <span>no worries,<a href="#"> click here</a> to reset your password.</span>
+        </div>
+    <!-- password reset end -->
+    </mat-card>
+    <!-- login card end -->
+</div>
+<!-- login class end -->
